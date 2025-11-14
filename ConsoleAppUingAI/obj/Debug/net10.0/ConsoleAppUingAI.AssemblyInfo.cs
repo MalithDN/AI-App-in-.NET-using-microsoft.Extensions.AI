@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppUingAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ca5160d2be46ae3af589c6217118c641dccb5df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+775d2ccbc80b89cbe4dfda21b0fecffeab92a3d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppUingAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppUingAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
