@@ -18,7 +18,13 @@ bld/
 .vs/
 
 # Visual Studio Code
-.vscode/
+# Ignore all VS Code workspace data by default, but allow common shared files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 *.code-workspace
 
 # Rider
@@ -41,6 +47,11 @@ bld/
 .env
 .env.local
 .env.*.local
+*.env
+
+# App configuration (local overrides)
+appsettings.*.local.json
+*.secrets.json
 
 # NuGet
 *.nupkg
@@ -54,16 +65,37 @@ bld/
 # OS files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
 # Node modules (if using any npm packages)
 node_modules/
 npm-debug.log
+pnpm-debug.log
+yarn-error.log
 
 # Test Results
 TestResults/
 *.trx
 *.coverage
+*.coveragexml
+*.cov
+coverage.cobertura.xml
 
 # Reports
 coverage/
 reports/
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# VS/Compiler caches
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.ipch/
+
+# Mono/Unity leftovers (safe for .NET repos)
+*.pidb
+*.userprefs
+mono_crash.*
